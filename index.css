@@ -1,4 +1,6 @@
-
+body{
+  background-color: rgb(139, 201, 228);
+}
 .top-container {
     /* background-color: #f1f1f1; */
     padding: 30px;
@@ -10,7 +12,11 @@
 
 
 * {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
+body {
+  /* font-family: Verdana, sans-serif; */
+   /* margin:0;  */
+   
+  }
 .mySlides {display: none}
 .numbertext img {
     vertical-align: middle;
@@ -105,10 +111,10 @@ body {font-family: Verdana, sans-serif; margin:0}
 
 
 .footer {
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: 107%;
     /* background-color: red; */
     color: rgb(0, 0, 0);
     /* min-height: 10vh; */
@@ -150,3 +156,27 @@ body {font-family: Verdana, sans-serif; margin:0}
   font-weight: 600;
 }
 /* profile ends */
+
+/* social media starts */
+
+.heading {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+.button{
+  min-width: 80%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+button a{
+  text-decoration: none;
+  color: black;
+}
+button:hover{
+  background-color: rgb(218, 218, 218);
+}
+
+/* social media ends */
